@@ -102,6 +102,9 @@ celerybeat.pid
 *.sage.py
 
 # Environments
+simpleEnv/
+advancedEnv/
+bertEnv/
 .env
 .venv
 env/
@@ -129,4 +132,7 @@ dmypy.json
 .pyre/
 
 # model save
-*.h5
+model/
+
+# tokenizer save
+tokenizer/
